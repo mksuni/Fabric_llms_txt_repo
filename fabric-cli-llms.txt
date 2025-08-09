@@ -1,0 +1,28 @@
+# Microsoft Fabric CLI | fabric-cli
+
+## Overview
+The Microsoft Fabric CLI is a command-line interface designed to facilitate interactions with Microsoft Fabric services. It provides a range of commands and options for developers to manage and deploy applications effectively.
+
+## Documentation Links
+
+### Core Documentation
+- [fabric-cli](https://microsoft.github.io/fabric-cli/): The main page for the Microsoft Fabric CLI, detailing its features and functionalities.
+- [Cheatsheet](https://microsoft.github.io/fabric-cli/cheatsheet.html): A quick reference guide summarizing the most commonly used commands and their syntax.
+- [Examples](https://microsoft.github.io/fabric-cli/examples.html): A collection of practical examples demonstrating how to use the CLI for various tasks.
+- [Flags](https://microsoft.github.io/fabric-cli/flags.html): Detailed information on the command-line flags available for customizing CLI commands.
+- [Environment](https://microsoft.github.io/fabric-cli/environment.html): Instructions on setting up the environment for using the Microsoft Fabric CLI effectively.
+- [Release Notes](https://microsoft.github.io/fabric-cli/release-notes.html): Updates and changes made in recent versions of the Microsoft Fabric CLI.
+
+### Authentication 
+- [auth examples](https://microsoft.github.io/fabric-cli/examples/auth_examples.html): Examples of how to authenticate with Microsoft Fabric services using the CLI.
+
+
+### Support
+- [Support for Microsoft Fabric CLI](https://forms.office.com/r/uhL6b6tNsi): A form for users to provide feedback or report issues related to the Microsoft Fabric CLI.
+- [r/MicrosoftFabric on Reddit](https://www.reddit.com/r/MicrosoftFabric/): A community forum on Reddit for discussions and questions about Microsoft Fabric.
+- [Fabric Ideas Portal](https://ideas.fabric.microsoft.com/): A platform for users to submit and vote on feature requests for Microsoft Fabric.
+- [Developer Community Forum](https://community.fabric.microsoft.com/t5/Developer/bd-p/Developer): An official forum for developers to ask questions and share knowledge about Microsoft Fabric.
+- [Fabric Support Team](https://support.fabric.microsoft.com/): Contact information for the support team that assists users with issues related to Microsoft Fabric.
+
+### Troubleshooting
+- [Exit Codes](https://microsoft.github.io/fabric-cli/exit-codes.html): A reference for understanding the exit codes returned by the CLI, which indicate the success or failure of commands.
