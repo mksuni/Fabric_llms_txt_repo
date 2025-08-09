@@ -1,12 +1,22 @@
-# Microsoft Fabric CLI | fabric-cli
+# Microsoft Fabric CLI | fab
 
 ## Overview
 The Microsoft Fabric CLI is a command-line interface designed to facilitate interactions with Microsoft Fabric services. It provides a range of commands and options for developers to manage and deploy applications effectively.
 
 ## Documentation Links
 
+The Fabric CLI (`fab`) is a fast, file‑system‑inspired command‑line interface for Microsoft Fabric.
+Explore, automate, and script your Fabric environment—right from your terminal.
+
+### Key features
+File‑system navigation – ls, cd, mkdir, cp, rm, run  
+Interactive & scripting modes – switch fluidly between live shell and one‑off commands  
+Automation ready – ideal for GitHub Actions, Azure Pipelines, or any Bash/PowerShell/Python workflow  
+Cross‑platform – Windows Terminal, macOS Terminal, Linux shells  
+Built on public APIs – Fabric REST, OneLake, and Microsoft.Fabric ARM endpoints
+
 ### Core Documentation
-- [fabric-cli](https://microsoft.github.io/fabric-cli/): The main page for the Microsoft Fabric CLI, detailing its features and functionalities.
+- [fab](https://microsoft.github.io/fabric-cli/): The main page for the Microsoft Fabric CLI, detailing its features and functionalities.
 - [Cheatsheet](https://microsoft.github.io/fabric-cli/cheatsheet.html): A quick reference guide summarizing the most commonly used commands and their syntax.
 - [Examples](https://microsoft.github.io/fabric-cli/examples.html): A collection of practical examples demonstrating how to use the CLI for various tasks.
 - [Flags](https://microsoft.github.io/fabric-cli/flags.html): Detailed information on the command-line flags available for customizing CLI commands.
@@ -15,7 +25,6 @@ The Microsoft Fabric CLI is a command-line interface designed to facilitate inte
 
 ### Authentication 
 - [auth examples](https://microsoft.github.io/fabric-cli/examples/auth_examples.html): Examples of how to authenticate with Microsoft Fabric services using the CLI.
-
 
 ### Support
 - [Support for Microsoft Fabric CLI](https://forms.office.com/r/uhL6b6tNsi): A form for users to provide feedback or report issues related to the Microsoft Fabric CLI.
@@ -26,3 +35,64 @@ The Microsoft Fabric CLI is a command-line interface designed to facilitate inte
 
 ### Troubleshooting
 - [Exit Codes](https://microsoft.github.io/fabric-cli/exit-codes.html): A reference for understanding the exit codes returned by the CLI, which indicate the success or failure of commands.
+
+---
+
+## fab CLI Formatting Instructions
+
+### 1. Prompt Format
+- The prompt always shows the current path in the format:  
+	`fab:/<path>$`
+- Example:  
+	`fab:/ws1.Workspace/lh1.Lakehouse$`
+
+### 2. Command Syntax
+- Commands are entered after the prompt, e.g.:  
+	`fab:/ws1.Workspace$ ls`
+- Use lowercase for commands (`ls`, `cd`, `cp`, `mv`, `rm`, `create`, `set`, `get`, `open`, `export`, `exists`).
+
+### 3. Paths
+- Use absolute paths (start with `/`) or relative paths (using `..` or subfolders).
+- Example (absolute):  
+	`fab:/ws1.Workspace/lh1.Lakehouse$ cd /ws1.Workspace`
+- Example (relative):  
+	`fab:/ws1.Workspace/lh1.Lakehouse$ cd ../../ws1.Workspace`
+
+### 4. Output and Feedback
+- After a command, show feedback or result, e.g.:  
+	`* Switched to 'ws1.Workspace'`  
+	`* true`  
+	`* false`
+
+### 5. Interactive vs. Command Line Mode
+- Interactive mode:  
+	`fab:/ws1.Workspace$ <command>`
+- Command line mode (from shell):  
+	`~$ fab <command>`
+
+### 6. Resource Naming
+- Workspaces: `<name>.Workspace`
+- Lakehouses: `<name>.Lakehouse`
+- Notebooks: `<name>.Notebook`
+- Pipelines: `<name>.Pipeline`
+- Personal workspace: `My workspace.Personal`
+
+### 7. Examples
+- Navigating:  
+	`fab:/$ cd My workspace.Personal`
+- Creating:  
+	`fab:/$ create ws2.Workspace`
+- Listing:  
+	`fab:/$ ls ws1.Workspace`
+- Copying:  
+	`fab:/$ cp ws1.Workspace ws2.Workspace`
+- Checking existence:  
+	`fab:/$ exists ws1.Workspace`
+- Exporting:  
+	`fab:/$ export ws1.Workspace -o /tmp`
+- Opening:  
+	`fab:/$ open ws1.Workspace`
+
+---
+
+**Always use the fab prompt, correct resource types, and show feedback after commands.**
