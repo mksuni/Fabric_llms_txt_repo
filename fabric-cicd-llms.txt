@@ -1,0 +1,55 @@
+# Microsoft Fabric CLI | fabric-cli
+
+## Overview
+The Microsoft Fabric CLI is a command-line interface designed to facilitate interactions with Microsoft Fabric services. It provides a range of commands and options for developers to manage and deploy applications effectively.
+
+## Documentation Links
+
+### Core Documentation
+- [fabric-cli](https://microsoft.github.io/fabric-cli/): The main page for the Microsoft Fabric CLI, detailing its features and functionalities.
+- [Cheatsheet](https://microsoft.github.io/fabric-cli/cheatsheet.html): A quick reference guide summarizing the most commonly used commands and their syntax.
+- [Examples](https://microsoft.github.io/fabric-cli/examples.html): A collection of practical examples demonstrating how to use the CLI for various tasks.
+- [Flags](https://microsoft.github.io/fabric-cli/flags.html): Detailed information on the command-line flags available for customizing CLI commands.
+- [Environment](https://microsoft.github.io/fabric-cli/environment.html): Instructions on setting up the environment for using the Microsoft Fabric CLI effectively.
+- [Release Notes](https://microsoft.github.io/fabric-cli/release-notes.html): Updates and changes made in recent versions of the Microsoft Fabric CLI.
+
+### Authentication and Support
+- [auth examples](https://microsoft.github.io/fabric-cli/examples/auth_examples.html): Examples of how to authenticate with Microsoft Fabric services using the CLI.
+- [Exit Codes](https://microsoft.github.io/fabric-cli/exit-codes.html): A reference for understanding the exit codes returned by the CLI, which indicate the success or failure of commands.
+- [Microsoft Form](https://forms.office.com/r/uhL6b6tNsi): A form for users to provide feedback or report issues related to the Microsoft Fabric CLI.
+- [r/MicrosoftFabric on Reddit](https://www.reddit.com/r/MicrosoftFabric/): A community forum on Reddit for discussions and questions about Microsoft Fabric.
+- [Fabric Ideas Portal](https://ideas.fabric.microsoft.com/): A platform for users to submit and vote on feature requests for Microsoft Fabric.
+- [Developer Community Forum](https://community.fabric.microsoft.com/t5/Developer/bd-p/Developer): An official forum for developers to ask questions and share knowledge about Microsoft Fabric.
+- [Fabric Support Team](https://support.fabric.microsoft.com/): Contact information for the support team that assists users with issues related to Microsoft Fabric.
+
+### Related Projects and Resources
+- [AI for Earth Data Sets | AIforEarthDataSets - Microsoft Open Source](https://microsoft.github.io/AIforEarthDataSets/): A repository of datasets aimed at supporting environmental initiatives using AI.
+- [ONNX Runtime | Home](https://microsoft.github.io/onnxruntime/): Information about the ONNX Runtime, which is optimized for running machine learning models.
+- [ToRA: Tool-Integrated Reasoning Agents - Microsoft Open Source](https://microsoft.github.io/ToRA/): A project focused on integrating reasoning agents into tools for enhanced decision-making.
+- [PROSE - Microsoft Research](https://microsoft.github.io/prose/): Research initiatives related to programming by example and automated programming.
+- [Accera - Microsoft Open Source](https://microsoft.github.io/Accera/): A project that focuses on enhancing the capabilities of AI and machine learning.
+- [What The Hack - Microsoft Open Source](https://microsoft.github.io/WhatTheHack/): A collaborative platform for learning and experimenting with Microsoft technologies.
+- [Gen Studio | GenStudio - Microsoft Open Source](https://microsoft.github.io/GenStudio/): A tool for generating and managing AI models.
+- [RenderFormer: Transformer-based Neural Rendering of Triangle ...](https://microsoft.github.io/renderformer/): A project that explores advanced rendering techniques using neural networks.
+- [Trace - Microsoft Open Source](https://microsoft.github.io/Trace/): A tool for tracing and debugging applications in a Microsoft environment.
+- [Overview - Pytorch Wildlife](https://microsoft.github.io/CameraTraps/): An overview of a project utilizing PyTorch for wildlife conservation efforts.
+- [Zero Trust Lab Guide - Open Source at Microsoft](https://microsoft.github.io/ztlabguide/): A guide on implementing Zero Trust security principles in software development.
+- [LIDA | LIDA: Automated Visualizations with LLMs](https://microsoft.github.io/lida/): A project focused on creating automated visualizations using large language models.
+- [About Windows MIDI Services - Microsoft Open Source](https://microsoft.github.io/MIDI/): Information on MIDI services available in Windows for developers.
+- [Proxy: Next Generation Polymorphism in C++ - Microsoft Open Source](https://microsoft.github.io/proxy/): A project exploring advanced polymorphism techniques in C++ programming.
+- [Microsoft Power Customer Advisory Team](https://microsoft.github.io/powercat/): A team dedicated to providing insights and guidance on Microsoft Power products.
+- [Integrity Policy Enforcement (IPE) - Microsoft Open Source](https://microsoft.github.io/ipe/): A project focused on enforcing integrity policies in software applications.
+- [Hello from Garnet](https://microsoft.github.io/garnet/): An introductory page for the Garnet project, detailing its objectives and features.
+- [Home](https://microsoft.github.io/ivy/): The main landing page for Microsoft Fabric and its associated resources.
+- [FastNeRF: High-Fidelity Neural Rendering at 200FPS](https://microsoft.github.io/FastNeRF/): A project that focuses on high-speed neural rendering techniques.
+- [Microsoft 365 Agents SDK](https://microsoft.github.io/Agents/): A software development kit for building applications that integrate with Microsoft 365 services.
+- [FLAML - AutoML & Tuning](https://microsoft.github.io/FLAML/): A project that provides tools for automated machine learning and hyperparameter tuning.
+- [Search for typed packages - TypeScript](https://microsoft.github.io/TypeSearch/): A resource for finding and using typed packages in TypeScript development.
+- [Open Datasheets - Microsoft Open Source](https://microsoft.github.io/opendatasheets/): A collection of datasheets available for open-source projects at Microsoft.
+- [Microsoft Open Source](https://microsoft.github.io/): An overview of Microsoft's commitment to open-source software and its various projects.
+- [Documentation for Online Z3 Guide](https://microsoft.github.io/z3guide/): Documentation for using the Z3 theorem prover online.
+- [FAQ - Microsoft Presidio](https://microsoft.github.io/presidio/faq/): Frequently asked questions regarding Microsoft Presidio and its functionalities.
+- [Presidio Anonymizer](https://microsoft.github.io/presidio/anonymizer/): A tool for anonymizing sensitive data in applications.
+- [Setting up a development environment - Microsoft Presidio](https://microsoft.github.io/presidio/development/): Guidelines for configuring a development environment for Microsoft Presidio.
+- [MakeCode AP CSP](https://microsoft.github.io/makecode-csp/): A resource for educators and students using MakeCode in AP Computer Science Principles.
+- [Generalizable Low-Resource Activity Recognition with Diverse and ...](https://microsoft.github.io/robustlearn/ddlearn/): A project focused on activity recognition in low-resource settings.
