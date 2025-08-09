@@ -6,6 +6,7 @@ Microsoft Fabric REST APIs let you automate Fabric procedures and processes.
 
 - [Using the Microsoft Fabric REST APIs](https://learn.microsoft.com/en-us/rest/api/fabric/articles/using-fabric-apis): This page provides guidance on how to effectively utilize the Microsoft Fabric REST APIs for automation and integration tasks.
 - [Fabric REST API documentation structure](https://learn.microsoft.com/en-us/rest/api/fabric/articles/api-structure): An overview of the organization and structure of the Fabric REST API documentation, helping users navigate the resources available.
+- [Nuget package]https://www.nuget.org/packages/Microsoft.Fabric.Api/1.0.0-beta): Reference for Fabric .NET SDK. 
 
 ## Key Concepts
 
