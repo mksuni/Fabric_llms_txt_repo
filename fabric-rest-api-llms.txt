@@ -1,0 +1,62 @@
+# Microsoft Fabric REST API references - Microsoft Fabric REST APIs | Microsoft Learn
+
+Microsoft Fabric REST APIs let you automate Fabric procedures and processes.
+
+## Overview of Microsoft Fabric REST APIs
+
+- [Using the Microsoft Fabric REST APIs](https://learn.microsoft.com/en-us/rest/api/fabric/articles/using-fabric-apis): This page provides guidance on how to effectively utilize the Microsoft Fabric REST APIs for automation and integration tasks.
+- [Fabric REST API documentation structure](https://learn.microsoft.com/en-us/rest/api/fabric/articles/api-structure): An overview of the organization and structure of the Fabric REST API documentation, helping users navigate the resources available.
+
+## Key Concepts
+
+- [Scopes](https://learn.microsoft.com/en-us/rest/api/fabric/articles/scopes): This section explains the concept of scopes within the Microsoft Fabric REST APIs, detailing how they are used to manage permissions and access.
+- [Throttling](https://learn.microsoft.com/en-us/rest/api/fabric/articles/throttling): Information on throttling mechanisms in place to ensure fair usage of the APIs and to prevent abuse.
+- [Long running operation](https://learn.microsoft.com/en-us/rest/api/fabric/articles/long-running-operation): Details on how to handle operations that take a significant amount of time to complete, including best practices for managing such requests.
+- [Pagination](https://learn.microsoft.com/en-us/rest/api/fabric/articles/pagination): Guidelines on how to implement pagination when retrieving large sets of data from the APIs.
+
+## Getting Started
+
+- [Getting started](https://aka.ms/FabricTF/getting-started): A comprehensive introduction to the Microsoft Fabric REST APIs, including prerequisites and initial setup steps.
+- [Fabric REST quickstart](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/fabric-api-quickstart): A quickstart guide that provides a fast track to using the Fabric REST APIs with practical examples.
+
+## Additional Resources
+
+- [Fabric documentation](https://aka.ms/FabricTF/docs): A central hub for all documentation related to Microsoft Fabric, including API references and user guides.
+- [Quickstarts](https://aka.ms/FabricTF/quickstart): A collection of quickstart guides to help users get up and running with various features of Microsoft Fabric.
+- [Source code](https://aka.ms/FabricTF/repo): Access to the source code related to Microsoft Fabric, useful for developers looking to understand or contribute to the project.
+- [Samples](https://aka.ms/DataOps-E2E-Fabric): A repository of sample code demonstrating how to use the Microsoft Fabric REST APIs in various scenarios.
+
+## Data Structures
+
+- [Item definition overview](https://learn.microsoft.com/en-us/rest/api/fabric/articles/item-management/definitions/item-definition-overview): An overview of item definitions used within the Microsoft Fabric APIs, explaining their structure and purpose.
+- [Item payload overview](https://learn.microsoft.com/en-us/rest/api/fabric/articles/item-management/payloads/item-payload-overview): Details on the payload structure for items, including required fields and data types.
+- [KQL Database payload](https://learn.microsoft.com/en-us/rest/api/fabric/articles/item-management/payloads/kql-database-payload): Information on the payload structure specific to KQL databases, including examples and use cases.
+
+## API Management
+
+- [Fabric capacity REST APIs in Azure](https://learn.microsoft.com/en-us/rest/api/microsoftfabric/fabric-capacities): Documentation on managing Fabric capacity through REST APIs in the Azure environment.
+- [Create a Microsoft Entra ID app](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/create-entra-app): Instructions on how to create an application in Microsoft Entra ID, which is necessary for authentication when using the APIs.
+- [Fabric Command Line Interface (CLI)](https://learn.microsoft.com/en-us/rest/api/fabric/articles/fabric-command-line-interface): An introduction to the Fabric CLI, which provides a command-line interface for interacting with Microsoft Fabric.
+- [fabric-cli](https://microsoft.github.io/fabric-cli/): Detailed documentation on the fabric-cli tool, including installation and usage instructions.
+
+## Additional Information
+
+- [Your Privacy Choices](https://aka.ms/yourcaliforniaprivacychoices): Information regarding user privacy choices related to Microsoft services.
+- [AI Disclaimer](https://learn.microsoft.com/en-us/principles-for-ai-generated-content): A disclaimer regarding the use of AI technologies in Microsoft products and services.
+- [Previous Versions](https://learn.microsoft.com/en-us/previous-versions/): Access to documentation for previous versions of the Microsoft Fabric REST APIs.
+- [Blog](https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog): A blog featuring updates, tips, and insights related to Microsoft Fabric and its APIs.
+- [Contribute](https://learn.microsoft.com/en-us/contribute): Guidelines for contributing to the Microsoft Fabric documentation and community.
+- [Privacy](https://go.microsoft.com/fwlink/?LinkId=521839): Details on Microsoft’s privacy policies and practices.
+- [Terms of Use](https://learn.microsoft.com/en-us/legal/termsofuse): The terms of use governing the use of Microsoft services and APIs.
+- [Trademarks](https://www.microsoft.com/legal/intellectualproperty/Trademarks/): Information on trademarks associated with Microsoft products and services.
+
+## Language Options
+
+- [Read in English](https://learn.microsoft.com/en-us/rest/api/fabric/articles/#): Option to read the documentation in English.
+- [Microsoft Learn : Développer des compétences qui ouvrent de ...](https://learn.microsoft.com/fr-fr/): A link to resources for developing skills in French.
+- [Microsoft Learn: Neue Qualifikationen für neue Karrierechancen](https://learn.microsoft.com/de-de/): A link to resources for developing skills in German.
+- [Microsoft Learn: Meningkatkan keterampilan yang membuka ...](https://learn.microsoft.com/id-id/): A link to resources for developing skills in Indonesian.
+- [Treinamento – Cursos, Roteiros de Aprendizagem, Módulos](https://learn.microsoft.com/pt-br/training/): A link to training resources in Portuguese.
+- [Documentación de administración de Microsoft Teams](https://learn.microsoft.com/es-es/microsoftteams/): Documentation related to Microsoft Teams administration in Spanish.
+- [Aprenda a usar Microsoft 365 Copilot](https://learn.microsoft.com/es-es/copilot/): A guide on using Microsoft 365 Copilot in Portuguese.
+- [Microsoft para desarrolladores de Java](https://learn.microsoft.com/es-es/java/): Resources for Java developers working with Microsoft technologies.
