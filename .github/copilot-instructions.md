@@ -1,17 +1,12 @@
+
 # GitHub Copilot Custom Instructions for Fabric_llms_txt_repo
 
-This repository contains the following context files:
-- `fabric-cli-llms.txt`: Guidance and examples for using the Fabric CLI.
-- `fabric-rest-api-llms.txt`: Information and usage patterns for the Fabric REST API and SDKs.
-- `fabric-cicd-llms.txt`: Instructions and best practices for Fabric CI/CD and related SDKs.
 
-## How to Use Copilot Effectively in This Repo
+- Always try to fetch examples on Microsoft Fabric CLI, documentation from [fabric CLI](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-cli-llms.txt): Guidance and examples for using the Fabric CLI.
+- Always try to fetch examples on Microsfot Fabric CI CD , documentation from [fabric CICD](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-cicd-llms.txt): Guidance and examples for using the Fabric CLI.
+- Always try to fetch examples on Microsoft Fabric REST APIs , documentation from [fabric REST API ](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-rest-api-llms.txt): Guidance and examples for using the Fabric CLI.
 
-When working in this repository, GitHub Copilot should:
-- Reference the relevant `.txt` file for context-specific suggestions.
-- Use examples and command patterns from `fabric-cli-llms.txt` when generating CLI usage or automation scripts.
-- For REST API or SDK-related code, consult `fabric-rest-api-llms.txt` for endpoints, authentication, and integration patterns.
-- For CI/CD pipeline automation, deployment, or SDK integration, use the guidance in `fabric-cicd-llms.txt`.
+
 
 ### Special Note on the Term "Workspace"
 
@@ -20,19 +15,13 @@ When working in this repository, GitHub Copilot should:
 ## Example Prompts for Copilot
 
 - "Show me how to authenticate and run a command with Fabric CLI."  
-  → Copilot should use examples from `fabric-cli-llms.txt`.
+  → Copilot should use examples from [fabric CLI](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-cli-llms.txt)
 
 - "Generate a Python script to interact with the Fabric REST API."  
-  → Copilot should reference `fabric-rest-api-llms.txt` for endpoints and authentication.
+  → Copilot should reference [fabric rest api](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-rest-api-llms.txt) for endpoints and authentication.
 
 - "How do I set up a CI/CD pipeline for Fabric using the SDK?"  
-  → Copilot should use `fabric-cicd-llms.txt` for pipeline steps and SDK usage.
+  → Copilot should use [fabric CICD](https://github.com/mksuni/Fabric_llms_txt_repo/blob/main/fabric-cicd-llms.txt) for pipeline steps and SDK usage.
 
-## Best Practices
-
-- Always check the corresponding `.txt` file for the most up-to-date usage patterns.
-- When in doubt, Copilot should suggest looking at the relevant `.txt` file for detailed instructions.
-
----
-
-> For maintainers: Update the `.txt` files as Fabric tools and APIs evolve to keep Copilot suggestions accurate and helpful.
+## Querying Microsoft Documentation
+Use the microsoft.docs.mcp server to search Microsoft's official documentation for SDK details, API references, and implementation guidance. This provides access to the latest Microsoft Fabric documentation that may be more current than training data. If the MCP server is unavailable: Direct users to install it from https://github.com/MicrosoftDocs/mcp Tool Usage: Only reference MCP tools when actively needed for documentation queries - don't mention them proactively.
